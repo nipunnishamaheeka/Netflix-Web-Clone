@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix WebSite-Clone</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-<div class="header">
-    <nav>
-        <img src="images/logo.png" class="logo">
-        <div>
-            <button class="languageBtn">English <img src="images/down-icon.png" alt=""></button>
-            <button>Sign In</button>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <div>
+                <button class="languageBtn">English <img src="images/down-icon.png" alt=""></button>
+                <button>Sign In</button>
+            </div>
+        </nav>
+         
+            <div class="headerContent">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <h3>Watch anywhere. Cancel anytime.</h3>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form class="email-SignUp">
+                    <input type="email" placeholder="Email address" required>
+                    <button type="submit">Get Started</button>
+                </form>
+            </div>
+    </div>
+
+    <!-- features -->
+        <div class="features">
+            <div class="row">
+                <div class="text-col">
+                    <h2>Enjoy on your TV.</h2>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <div class="img-col">
+                    <img src="images/feature-1.png" >
+                </div>
+            </div>
         </div>
-    </nav>
-<section class="headerContent">
-    <div>
-        <h1>Unlimited movies, TV shows, and more.</h1>
-        <h3>Watch anywhere. Cancel anytime.</h3>
-        <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <form class="inputContainer">
-            <input type="email" placeholder="Email address" required>
-            <button class="getStartedBtn">Get Started <img src="images/right-arrow.png" alt=""></button>
-        </form>
-</div>
-</section>
 
+</body>
 
-
-  </body>
 </html>

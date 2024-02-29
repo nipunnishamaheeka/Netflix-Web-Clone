@@ -69,20 +69,27 @@ nav button {
 .headerContent {
 
     position: absolute;
-    top: 40;
-    left: -9%;
-    transform: translate(50%, 50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 140px;
+    margin-top: 100px;
 
 }
 
 .headerContent h1 {
-    font-weight: 900;
+
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+
+
+    /* font-weight: 900;
     font-size: 3rem;
     line-height: 70px;
     max-width: 1050px;
-    /* min-width: 960px; */
+    min-width: 960px; */
 }
 
 .headerContent h3 {
@@ -92,7 +99,7 @@ nav button {
 
 }
 
-.inputContainer {
+.email-SignUp {
     background: var(--text-color);
     border-radius: 4px;
     display: flex;
@@ -102,7 +109,7 @@ nav button {
 
 }
 
-.inputContainer input {
+.email-SignUp input {
     flex: 1;
     border: 0;
     outline: 0;
@@ -112,7 +119,7 @@ nav button {
 }
 
 
-.inputContainer button {
+.email-SignUp button {
     background: var(--second-bg-color);
     color: var(--text-color);
     font-size: 16px;
@@ -120,4 +127,40 @@ nav button {
     outline: 0;
     cursor: pointer;
     padding: 15px 30px;
+}
+
+/* features */ 
+
+.features {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 20%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 250%;
+    margin: auto;
+}
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
