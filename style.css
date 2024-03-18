@@ -129,7 +129,7 @@ nav button {
     padding: 15px 30px;
 }
 
-/* features */ 
+/* features */
 
 .features {
     padding: 50px 12%;
@@ -156,11 +156,59 @@ nav button {
 
 .img-col img {
     display: block;
-    width: 250%;
-    margin: auto;
+    width: 400px;
+    height: auto;
+    margin: 0 100px 100px 0;
 }
+
 .features h2 {
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+
+/* faq */
+
+.faq {
+    color: white;
+    background: black;
+    padding: 30px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.faqBox {
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 34px auto;
+    cursor: pointer;
+    background-color: #2d2d2d;
+    padding: 25px;
+
+}
+
+.faqBox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+
+}
+.que{
+
+    padding: 34px 0;
+    
+
 }
