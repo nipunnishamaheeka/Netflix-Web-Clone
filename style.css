@@ -21,7 +21,7 @@ body {
 .header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/header-image.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/header-image.png);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
@@ -201,14 +201,36 @@ nav button {
 }
 
 .footer {
-  color: white;
-  max-width: 60vw;
-  margin: auto;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
 
 }
-.que{
+
+.que {
 
     padding: 34px 0;
-    
+
+}
+
+.footer-Box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
+
+.footer-Box a {
+    font-size: 14px;
+    color: white;
+
+
+}
+
+.footer-Box items {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
 
 }
