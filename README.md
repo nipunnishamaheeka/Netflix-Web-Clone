@@ -27,7 +27,17 @@ How to Use:
 
 Contributions:
 
-- Contributions are welcome! Feel free to submit pull requests for any enhancements or bug fixes.
+- Contributions are welcome! Feel free to submit pull requests for any enhancements or bug fixes
+
+Image 01.
+![Screenshot 2024-04-26 171246](https://github.com/nipunnishamaheeka/Netflix-Web-Clone/assets/115369622/2aa248b6-c28f-49a1-90af-d38f57d623ea)
+
+Image 02.
+![Screenshot 2024-04-26 171258](https://github.com/nipunnishamaheeka/Netflix-Web-Clone/assets/115369622/547ad260-e661-4747-be66-057a11af839e)
+
+Image 03.
+![Screenshot 2024-04-26 171325](https://github.com/nipunnishamaheeka/Netflix-Web-Clone/assets/115369622/54f9180b-28fd-4f97-a901-d793e753357e)
+
 ## License
 
 This project is licensed under the MIT License. [MIT](https://shields.io/)
